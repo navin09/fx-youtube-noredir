@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
   "version": "1.0.0",
@@ -14,6 +14,12 @@
     "96": "icons/96.png",
     "128": "icons/128.png",
     "512": "icons/512.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{a643d3c1-93d4-4b7c-bdd7-ff518157c165}",
+      "strict_min_version": "52.0"
+    }
   },
   "content_scripts": [
     {
